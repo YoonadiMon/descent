@@ -3,10 +3,7 @@ import Navbar from './Navbar';
 import Text from './Text';
 import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import CreateEvent from './CreateEvent';
-import MapComponent from './MapComponent';
-
-
-
+import ChatComponent from './ChatComponent';
 //css stuff
 function App() {
   document.title = 'Descent';
@@ -19,6 +16,7 @@ function App() {
             <Route exact path = '/' element = {<Home/>}/>
             <Route path = '/text' element = {<Text/>}/>
             <Route path = '/CreateEvent' element = {<CreateEvent/>} />
+            <Route path = 'chat' element = {<ChatComponent/>}/>
           </Routes>
         </div>
       </div>
