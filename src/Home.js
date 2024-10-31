@@ -12,7 +12,7 @@ const Home = () => {
     return ( 
         <div className="home">
             <h1>Descent</h1>
-            <h2>A right step</h2>
+            <h2>Dive Right In</h2>
             <img src = {logo}  height = '350px' width = '350px'/><br></br>
             <button className = 'signIn' onClick = {click}>Sign up now</button><br></br><br></br>
         </div>
