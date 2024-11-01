@@ -15,12 +15,13 @@ const MapComponent = () => {
                 <h2>Pick a location</h2>
             </div>
             <iframe
-                width="600"
+                width="1000"
                 height="450"
                 loading="lazy"
                 allowfullscreen
                 referrerpolicy="no-referrer-when-downgrade"
-                src="https://www.google.com/maps/embed/v1/place?key=AIzaSyACrNXTfikt8TRNFWALOeKF6GQdlrXlgTc&q=United+Kingdom">
+                src="https://www.google.com/maps/embed/v1/place?key=AIzaSyACrNXTfikt8TRNFWALOeKF6GQdlrXlgTc&q=BuckingHam+Palace,United+Kingdom">
+                
             </iframe>
         </div>
      );

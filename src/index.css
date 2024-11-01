@@ -91,3 +91,23 @@ h1{
 	background-color: #465570;
 	transition:0.8s;
 }
+
+input {
+	height:50px;
+	width:50%;
+	margin-bottom:30px;
+	border:none;
+	background-color: #95b2b0;
+	transition:0.8s ease-in-out;
+	font-size:15px;
+	
+	
+}
+
+input:hover{
+	background-color: #728886;
+	transition: 0.8s;
+}
+input:active{
+	border:none;
+}

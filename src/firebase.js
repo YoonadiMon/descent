@@ -17,19 +17,21 @@ const firebaseConfig = {
   appId: "1:1089706228427:web:ba04af340ce5c7e11db94e",
   measurementId: "G-KZ8QNGQEJ2"
 };
-let name1 = null;
-let email1 = null;
 
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
 const firestore = getFirestore(app);
+const db = firestore();
 export const auth = getAuth(app);
 const provider = new GoogleAuthProvider();
 export const signInWithGoogle = () =>{
   signInWithRedirect(auth,provider)
 };
+
+//starting the functioning
+
 
 
 
