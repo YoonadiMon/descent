@@ -1,11 +1,14 @@
 import Chat from './ChatComponents/Chat';
 import Sidebar from './ChatComponents/Sidebar';
+import Search from './ChatComponents/Search';
 const ChatComponent = () => {
     return ( 
         <div className="chat-component">
-            <h2>Talk to people!!!!</h2>
-            <Sidebar/>
-            <Chat/>
+            <div className = 'container'>
+                <Sidebar/>
+                <Chat/>
+            </div>
+
         </div>
      );
 }
