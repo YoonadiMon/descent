@@ -1,7 +1,11 @@
+import ChatNav from "./ChatNav";
+import Search from "./Search";
+
 const Sidebar = () => {
     return (
-        <div classname = 'sidebar'>
-            <p>sidebar</p>
+        <div className = 'sidebar' >
+            <ChatNav/>
+            <Search/>
         </div>
       );
 }
