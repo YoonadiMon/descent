@@ -1,9 +1,8 @@
+import scubadiver from './scuba_diver.png';
 const Search = () => {
     return ( 
         <div className = 'search'>
-            <div className = 'searchForm'>
-                
-            </div>
+
         </div>
      );
 }

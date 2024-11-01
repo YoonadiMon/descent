@@ -1,4 +1,5 @@
 import ChatNav from "./ChatNav";
+import Chats from "./Chats";
 import Search from "./Search";
 
 const Sidebar = () => {
@@ -6,6 +7,7 @@ const Sidebar = () => {
         <div className = 'sidebar' >
             <ChatNav/>
             <Search/>
+            <Chats/>
         </div>
       );
 }

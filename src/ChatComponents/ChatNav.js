@@ -4,7 +4,7 @@ const ChatNav = () => {
         <div className = 'chatNav'>
             <span className = 'logo'>The chat</span>
             <div className = 'user'>
-                <img src = {scubadiver} alt = "skubadiver"/>
+                <img className = 'profilepic'src = {scubadiver} alt = "skubadiver"/>
                 <span>John</span>
                 <button>Logout</button>
             </div>

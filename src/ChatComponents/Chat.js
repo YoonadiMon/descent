@@ -1,3 +1,4 @@
+import scubadiver from './scuba_diver.png';
 import React, { useState } from "react";
 
 const Chat = () => {
@@ -10,7 +11,6 @@ const Chat = () => {
   
   return (
     <div className="chat-container">
-      <p>Chat</p>
     </div>
   );
 };
