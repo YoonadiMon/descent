@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 
 const Chat = () => {
-    const [messages, setMessages] = useState([]);
+    const [messages, setMessages] = useState(["Welcome to the chat~"]);
     const [input, setInput] = useState("");
 
+    
     const sendMessage = () => {
     if (input.trim()) {
       setMessages([...messages, input]);
@@ -54,7 +55,8 @@ const Chat = () => {
       <div className="chat-input"
       style={{
         "display": "flex",
-        "border-top": "1px solid #020887"
+        "border-top": "1px solid #020887",
+        "height": "58px"
       }}>
         <input
           type="text"
