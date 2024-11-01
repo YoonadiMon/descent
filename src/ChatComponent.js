@@ -3,7 +3,7 @@ import Sidebar from './ChatComponents/Sidebar';
 const ChatComponent = () => {
     return ( 
         <div className="chat-component">
-            <h2>Talk to people!!!!</h2>
+            <h2>Talk with people of like-minded.</h2>
             <Sidebar/>
             <Chat/>
         </div>
