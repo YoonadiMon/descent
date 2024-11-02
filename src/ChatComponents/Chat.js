@@ -1,4 +1,4 @@
-import scubadiver from './scuba_diver.png';
+import scubadiver from '../images/scuba_diver.png';
 import React, { useState } from "react";
 
 const Chat = () => {
