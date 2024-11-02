@@ -1,4 +1,4 @@
-import scubadiver from './scuba_diver.png';
+import scubadiver from '../images/scuba_diver.png';
 const Chats = () => {
     return ( 
         <div className="chats">

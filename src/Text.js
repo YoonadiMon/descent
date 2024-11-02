@@ -3,8 +3,8 @@ import facebook from './images/facebook-brands-solid.svg';
 import instagram from './images/instagram-brands-solid.svg';
 import twitter from './images/twitter-brands-solid.svg';
 import linkedin from './images/linkedin-brands-solid.svg';
-import waves from './images/waves.svg';
-import waves2 from './images/waves2.svg';
+import waves from './images/waves.png';
+import waves2 from './images/waves2.png';
 
 const Text  = () => {
     return (  

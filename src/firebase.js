@@ -3,6 +3,7 @@ import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 import { getFirestore} from '@firebase/firestore';
 import {getAuth, GoogleAuthProvider, signInWithRedirect} from 'firebase/auth';
+import { getStorage } from "firebase/storage";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
@@ -28,9 +29,5 @@ const provider = new GoogleAuthProvider();
 export const signInWithGoogle = () =>{
   signInWithRedirect(auth,provider)
 };
-
-//starting the functioning
-
-
-
-
+export const storage = getStorage();
+export const db = getFirestore()

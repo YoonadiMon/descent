@@ -1,12 +1,13 @@
 import Chat from './ChatComponents/Chat';
 import Sidebar from './ChatComponents/Sidebar';
-import Search from './ChatComponents/Search';
+import Home from './ChatComponents/Home'
 const ChatComponent = () => {
     return ( 
         <div className="chat-component">
             <div className = 'container'>
                 <Sidebar/>
                 <Chat/>
+                <Home/>
             </div>
 
         </div>
